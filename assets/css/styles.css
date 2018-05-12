@@ -25,6 +25,9 @@ h5,
 h6 {
   font-weight: 700;
 }
+/* h1{
+  font-size: 50pt;
+} */
 a {
   color: #2d7788;
   -webkit-transition: all 0.4s ease-in-out;
@@ -44,7 +47,7 @@ p {
 }
 .wrapper {
   background: #42A8C0;
-  max-width: 960px;
+  max-width: 1000px;
   margin: 0 auto;
   position: relative;
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -55,7 +58,7 @@ p {
   background: #42A8C0;
   position: absolute;
   right: 0;
-  width: 240px;
+  width: 300px;
   height: 100%;
   min-height: 800px;
   color: #fff;
@@ -83,6 +86,9 @@ p {
   margin-bottom: 0;
 }
 .sidebar-wrapper .profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
   margin-bottom: 15px;
 }
 .sidebar-wrapper .contact-list .fa {
@@ -155,7 +161,7 @@ p {
 .main-wrapper {
   background: #fff;
   padding: 60px;
-  padding-right: 300px;
+  padding-right: 340px;
 }
 .main-wrapper .section-title {
   text-transform: uppercase;
@@ -245,6 +251,7 @@ p {
   background: #7bc2d3;
 }
 .footer {
+  display: none;
   padding: 30px;
   padding-top: 60px;
 }
